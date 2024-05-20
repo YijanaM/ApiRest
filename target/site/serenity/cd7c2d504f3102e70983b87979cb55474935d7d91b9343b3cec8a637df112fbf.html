@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Login in pet store</title>
+    <title>Find purchase order by ID</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -122,10 +122,10 @@
             <a href="index.html" class="breadcrumbs">Home</a>
 
  <!-- inflection.of(breadcrumb.displayName).asATitle()-->
-            > <a href="8fe13e6de6cbd2a91227f172031769f45bf34b94a0cd2fb49084bc07ce60a5ba.html">Apis</a>
+            > <a href="ac9fd429e8692712c66ff2c88ccad3cc26ac9c8374cdb484dfa13f6bbdf0ebb4.html">Apis</a>
  <!-- inflection.of(breadcrumb.displayName).asATitle()-->
-            > <a href="7edd8d6c0beda373dd3060ff621ee3525629c420fcc45f80e103257a4bf5cf37.html">Purchase order</a>
-        > Login in pet store
+            > <a href="0622259427e64eb9d6db61cadd8a4272361206d01c1908f7971974d7fbeb4a21.html">Purchase order</a>
+        > Find purchase order by ID
         </span>
         </div>
         <div class="rightbg"></div>
@@ -149,7 +149,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 20-05-2024 13:30</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 20-05-2024 17:08</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -206,7 +206,7 @@
                             <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
                                 <span class="success-color">
-                                    Login in pet store
+                                    Find purchase order by ID
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -292,7 +292,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">522ms</span></td>
+                    <td width="100"><span class="top-level-step">457ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -322,7 +322,7 @@
                     </td>
 
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">487ms</span></td>
+                    <td width="100"><span class="nested-step">434ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -339,7 +339,7 @@
                     <td class="step-description-column">
                         <div class="step-description">
                                 <span class="nested-group-step">
-                                                Automation sends a POST request to 'https://petstore3.swagger.io/api/v3/store/order'
+                                                Automation sends a POST request to 'https://petstore.swagger.io/v2/store/order'
                                         </span>
                             <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -355,17 +355,17 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4>Response</h4>
-                                    <p>URL: https://petstore3.swagger.io/api/v3/store/order</p>
+                                    <p>URL: https://petstore.swagger.io/v2/store/order</p>
                                     <p>Status code: 200</p>
                                     <p>Content Type: application/json</p>
                                     <h4>Request Headers</h4>
-                                    <pre>Accept: application/json, text/plain, */*<br>Content-Type: application/json<br>User-Agent: axios/1.6.8<br>Content-Length: 111<br>Accept-Encoding: gzip, compress, deflate, br</pre>
+                                    <pre>Accept: application/json, text/plain, */*<br>Content-Type: application/json<br>User-Agent: axios/1.6.8<br>Content-Length: 125<br>Accept-Encoding: gzip, compress, deflate, br</pre>
                                     <h4>Content Body</h4>
-                                    <pre>{&quot;id&quot;:10,&quot;petId&quot;:198772,&quot;quantity&quot;:7,&quot;shipDate&quot;:&quot;2024-05-18T23:20:36.233Z&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;complete&quot;:true}</pre>
+                                    <pre>{&quot;id&quot;:9965874,&quot;petId&quot;:17588387,&quot;quantity&quot;:17220492,&quot;shipDate&quot;:&quot;1968-02-05T07:01:04.430Z&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;complete&quot;:true}</pre>
                                     <h4>Response Headers</h4>
-                                    <pre>date: Mon, 20 May 2024 13:30:33 GMT<br>content-type: application/json<br>content-length: 116<br>connection: close<br>access-control-allow-origin: *<br>access-control-allow-methods: GET, POST, DELETE, PUT<br>access-control-allow-headers: Content-Type, api_key, Authorization<br>access-control-expose-headers: Content-Disposition<br>server: Jetty(9.4.53.v20231009)</pre>
+                                    <pre>date: Mon, 20 May 2024 17:08:38 GMT<br>content-type: application/json<br>transfer-encoding: chunked<br>connection: close<br>access-control-allow-origin: *<br>access-control-allow-methods: GET, POST, DELETE, PUT<br>access-control-allow-headers: Content-Type, api_key, Authorization<br>server: Jetty(9.2.9.v20150224)</pre>
                                 <h4>Response Body</h4>
-                                    <pre>{<br>    &quot;id&quot;: 10,<br>    &quot;petId&quot;: 198772,<br>    &quot;quantity&quot;: 7,<br>    &quot;shipDate&quot;: &quot;2024-05-18T23:20:36.233+00:00&quot;,<br>    &quot;status&quot;: &quot;approved&quot;,<br>    &quot;complete&quot;: true<br>}</pre>
+                                    <pre>{<br>    &quot;id&quot;: 9965874,<br>    &quot;petId&quot;: 17588387,<br>    &quot;quantity&quot;: 17220492,<br>    &quot;shipDate&quot;: &quot;1968-02-05T07:01:04.430+0000&quot;,<br>    &quot;status&quot;: &quot;approved&quot;,<br>    &quot;complete&quot;: true<br>}</pre>
                             </div>
                         </div>
                     </div>
@@ -376,7 +376,7 @@
                     </td>
 
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">467ms</span></td>
+                    <td width="100"><span class="nested-group-step">416ms</span></td>
                 </tr>
 
                             </table>
@@ -402,7 +402,7 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                style="display:block;">
                                 <span class="top-level-step">
-                                                And Automation find order '10'
+                                                And Automation find order '9965874'
                                         </span>
                             </a>
                             <span class="evidence">
@@ -411,7 +411,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">354ms</span></td>
+                    <td width="100"><span class="top-level-step">343ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -441,7 +441,7 @@
                     </td>
 
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">327ms</span></td>
+                    <td width="100"><span class="nested-step">321ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -458,7 +458,7 @@
                     <td class="step-description-column">
                         <div class="step-description">
                                 <span class="nested-group-step">
-                                                Automation sends a GET request to 'https://petstore3.swagger.io/api/v3/store/order/10'
+                                                Automation sends a GET request to 'https://petstore.swagger.io/v2/store/order/9965874'
                                         </span>
                             <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -474,14 +474,14 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4>Response</h4>
-                                    <p>URL: https://petstore3.swagger.io/api/v3/store/order/10</p>
+                                    <p>URL: https://petstore.swagger.io/v2/store/order/9965874</p>
                                     <p>Status code: 200</p>
                                     <h4>Request Headers</h4>
                                     <pre>Accept: application/json<br>User-Agent: axios/1.6.8<br>Accept-Encoding: gzip, compress, deflate, br</pre>
                                     <h4>Response Headers</h4>
-                                    <pre>date: Mon, 20 May 2024 13:30:34 GMT<br>content-type: application/json<br>content-length: 116<br>connection: close<br>access-control-allow-origin: *<br>access-control-allow-methods: GET, POST, DELETE, PUT<br>access-control-allow-headers: Content-Type, api_key, Authorization<br>access-control-expose-headers: Content-Disposition<br>server: Jetty(9.4.53.v20231009)</pre>
+                                    <pre>date: Mon, 20 May 2024 17:08:39 GMT<br>content-type: application/json<br>transfer-encoding: chunked<br>connection: close<br>access-control-allow-origin: *<br>access-control-allow-methods: GET, POST, DELETE, PUT<br>access-control-allow-headers: Content-Type, api_key, Authorization<br>server: Jetty(9.2.9.v20150224)</pre>
                                 <h4>Response Body</h4>
-                                    <pre>{<br>    &quot;id&quot;: 10,<br>    &quot;petId&quot;: 198772,<br>    &quot;quantity&quot;: 7,<br>    &quot;shipDate&quot;: &quot;2024-05-18T23:20:36.233+00:00&quot;,<br>    &quot;status&quot;: &quot;approved&quot;,<br>    &quot;complete&quot;: true<br>}</pre>
+                                    <pre>{<br>    &quot;id&quot;: 9965874,<br>    &quot;petId&quot;: 17588387,<br>    &quot;quantity&quot;: 17220492,<br>    &quot;shipDate&quot;: &quot;1968-02-05T07:01:04.430+0000&quot;,<br>    &quot;status&quot;: &quot;approved&quot;,<br>    &quot;complete&quot;: true<br>}</pre>
                             </div>
                         </div>
                     </div>
@@ -492,7 +492,7 @@
                     </td>
 
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">292ms</span></td>
+                    <td width="100"><span class="nested-group-step">293ms</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
 
@@ -527,7 +527,7 @@
             <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                 <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                <td width="100"><span class="top-level-step"><em>0.9s</em></span></td>
+                <td width="100"><span class="top-level-step"><em>0.82s</em></span></td>
             </tr>
 
         </table>

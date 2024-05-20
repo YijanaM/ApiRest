@@ -1,7 +1,7 @@
 Feature: Purchase order
 
 
-  Scenario: Login in pet store
+  Scenario: Find purchase order by ID
     And Automation user makes an order
-    And Automation find order '10'
+    And Automation find order '9965874'
     
