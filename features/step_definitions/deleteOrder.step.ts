@@ -11,7 +11,7 @@ When('{actor} tries to delete the order with ID {string}', async (actor: Actor, 
 })
 
 Then('the order with ID {string} should be deleted successfully', async (orderId: String) =>{
-    git
+    
 })
 
 
